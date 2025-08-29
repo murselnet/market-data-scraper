@@ -1,0 +1,184 @@
+
+
+
+
+
+
+
+
+
+Github > action - variables
+AWS Lambda > function, envroment var
+AWS IAM > role
+AWS S3 > bucket
+AWS GATEWAY > endpointler
+AWS CLOUDWATCH > kend oluşuyor
+SUPABASE > database
+
+
+
+ESKİ > s3 olmayan
+1- Runtime > python 3.11
+2-yeni
+3-eu-central-1
+4-root'ta
+5-supabase için DATABASE_URL var
+6-master
+lambda Architecture > x86_64
+lambda adı > lamba-fast-db
+lamda Handler > lambda_function.lambda_handler
+
+
+############################################################################
+
+>>> Lambda Limitleri
+
+Layer limitleri
+Bir Layer’in ZIP dosyası boyutu (upload sırasında)
+50 MB (sıkıştırılmış .zip)
+
+Layer’in açılmış hali (uncompressed)
+250 MB
+
+Fonksiyon kodu + tüm layer’ların toplamı
+250 MB (uncompressed)
+
+Tüm fonksiyon + layer ZIP paketleri (deployment package)
+75 GB sınırına kadar saklanabilir (S3 üzerinden).
+------------------------------------------------
+1. Doğrudan yükleme (zip upload / console / CLI)
+50 MB (sıkıştırılmış .zip)
+250 MB (açılmış hali, kod + layer toplamı)
+
+2. S3 üzerinden yükleme (Deployment package from S3)
+250 MB (zip dosyası sıkıştırılmış hali)
+250 MB (açılmış hali, kod + layer toplamı)
+------------------------------------------------
+
+
+############################################################################
+
+
+# paketler klasörü olursa lambda_function.py dosya başı aklenecek
+import sys
+sys.path.insert(0, 'paketler')
+
+############################################################################
+
+Supabase
+Organization > murselnet
+proje > fastapi-lambda-app-db > metin1453
+
+############################################################################
+
+http://127.0.0.1:8000/users 
+http://127.0.0.1:8000/docs 
+
+lokalde terminalde çalıştırma konuda
+uvicorn main:app --reload   >>> http://127.0.0.1:8000 
+uvicorn main:app --reload --host 0.0.0.0 --port 8000
+burada çalışır > http://localhost:8000
+
+uvicorn lambda_function:app --reload
+
+uvicorn main:app --reload 
+
+############################################################################
+
+pip install mangum reload uvicorn
+
+pip freeze > requirements.txt 
+
+mkdir paketler
+
+pip install -r requirements.txt -t ./paketler --platform manylinux2014_x86_64 --python-version 3.11 --only-binary=:all:
+
+############################################################################
+
+terraform init
+terraform plan
+terraform apply
+terraform destroy
+
+Not: Bunun için AWS hesabı  açman ve 
+Access Key / Secret Key alman gerekir. 
+Onları ~/.aws/credentials dosyasıyla ya da 
+ortam değişkeniyle Terraform’a tanıtabilirsin.
+
+############################################################################
+
+# eğer kendim zip oluşturusam
+cd lambda_projem
+zip -r9 lambda_paketim.zip lambda_function.py paketler/   # >>> dikkat > yüklenecekler bu zip e eklenecek
+cd ..
+
+Zip dosyasının içinde lambda_function.py ve diğer dosyalarınız kök dizinde olmalıdır, bir üst klasörün içinde değil.
+
+Kütüphanelerinizin Lambda'nın çalıştığı Amazon Linux 2 ortamıyla uyumlu olması 
+kritik öneme sahiptir. 
+--platform manylinux2014_x86_64 
+parametresi bu konuda yardımcı olur.
+
+https://aistudio.google.com/app/prompts/15IJW6MOQnDpaOgbWOgJ1gRu813acMh8J
+
+############################################################################
+
+PI Gateway'e bir HTTP isteği gelir.
+API Gateway, bu isteği bir Lambda olayına (event objesi) dönüştürerek lambda_function.py dosyanızdaki handler fonksiyonunu tetikler.
+lambda_function.py içindeki Mangum(app) tarafından oluşturulan handler, bu Lambda olayını alır.
+Mangum, Lambda olayını FastAPI/Flask uygulamanızın (main.py içindeki app) anlayabileceği bir ASGI (FastAPI için) veya WSGI (Flask için) isteğine dönüştürür.
+FastAPI/Flask uygulamanız bu isteği işler ve bir yanıt üretir (örneğin, @app.get("/") rotasındaki fonksiyon çalışır).
+Mangum, FastAPI/Flask uygulamanızın ürettiği bu yanıtı alır ve API Gateway'in beklediği Lambda yanıt formatına (genellikle {'statusCode': 200, 'headers': {...}, 'body': '...'} şeklinde bir JSON) dönüştürür.
+Bu yanıt API Gateway'e geri döner ve oradan da istemciye HTTP yanıtı olarak gönderilir.
+
+############################################################################
+
+⚡️Commands from the video:
+1. pip install -t dependencies -r requirements.txt
+2. (cd dependencies; zip ../aws_lambda_artifact.zip -r .)
+    powershell > Compress-Archive -Path .\* -DestinationPath ..\aws_lambda_artifact.zip -Force
+3. zip aws_lambda_artifact.zip -u main.py
+
+pip install --platform manylinux2014_x86_64 --target=<layer-folder> --implementation cp --python-version 3.11 --only-binary=:all: --upgrade langchain==0.0.349
+
+pip install --platform manylinux2014_x86_64 --target=<layer-folder> --implementation cp --python-version 3.11 --only-binary=:all: --upgrade openai==1.6.1   
+
+ÖNEMLİ NOKTALAR
+- lambda daki python sürümü ve x86_64 gibi sürümlere dikkat
+- paketler hem birbirleri ile hemde python sürümü ile uyumlu olmalı.
+- loaklde paketle ziplemeden önce x86_64 göre zip öncesi paket oluşturulmalı
+
+############################################################################
+
+pip freeze > requirements.txt 
+
+lib klasör için temizle
+
+pip install -r requirements.txt -t ./lib --platform manylinux2014_x86_64 --python-version 3.11 --only-binary=:all:
+
+git add > git commit > git push
+
+############################################################################
+
+# 1. Python 3.11 ile sanal ortam oluştur
+py -3.11 -m venv venv
+
+# 2. Sanal ortamı etkinleştir
+venv\Scripts\activate 
+
+# 3. Python sürümünü kontrol et (isteğe bağlı)
+python --version
+
+# 4. Gereksinim dosyasındaki paketleri yükle
+pip freeze > requirements.txt
+pip install -r requirements.txt
+
+# 5. Sanal ortamdan çık
+deactivate
+
+pip install -q -U fastapi uvicorn
+
+############################################################################
+
+
+

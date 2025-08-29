@@ -1,0 +1,884 @@
+[
+    {
+        "Sira_No":1,
+        "Tarih":"2025-08-29",
+        "Saat":"21:28:35",
+        "Kod":"VIX",
+        "Aciklama":"INDEX VIX INDEX",
+        "Son_Fiyat":15.58,
+        "Yuzde_Degisim":7.97
+    },
+    {
+        "Sira_No":2,
+        "Tarih":"2025-08-29",
+        "Saat":"21:28:35",
+        "Kod":"BCOM",
+        "Aciklama":"INDEX BLOOMBERG EMTİA ENDEKSİ",
+        "Son_Fiyat":102.77,
+        "Yuzde_Degisim":0.79
+    },
+    {
+        "Sira_No":3,
+        "Tarih":"2025-08-29",
+        "Saat":"21:28:35",
+        "Kod":"TAHVIL",
+        "Aciklama":"TR 2 YILLIK TAHVİL",
+        "Son_Fiyat":38.93,
+        "Yuzde_Degisim":-0.26
+    },
+    {
+        "Sira_No":4,
+        "Tarih":"2025-08-29",
+        "Saat":"21:28:35",
+        "Kod":"TAHVIL5Y",
+        "Aciklama":"TR 5 YILLIK TAHVİL",
+        "Son_Fiyat":35.69,
+        "Yuzde_Degisim":-0.06
+    },
+    {
+        "Sira_No":5,
+        "Tarih":"2025-08-29",
+        "Saat":"21:28:35",
+        "Kod":"TAHVIL10Y",
+        "Aciklama":"TR 10 YILLIK TAHVİL",
+        "Son_Fiyat":31.23,
+        "Yuzde_Degisim":0.29
+    },
+    {
+        "Sira_No":6,
+        "Tarih":"2025-08-29",
+        "Saat":"21:28:35",
+        "Kod":"TRL\/\/ON",
+        "Aciklama":"REPO (GECELİK)",
+        "Son_Fiyat":14.59,
+        "Yuzde_Degisim":0.0
+    },
+    {
+        "Sira_No":7,
+        "Tarih":"2025-08-29",
+        "Saat":"21:28:35",
+        "Kod":"TRL\/\/1W",
+        "Aciklama":"REPO (HAFTALIK)",
+        "Son_Fiyat":14.59,
+        "Yuzde_Degisim":0.0
+    },
+    {
+        "Sira_No":8,
+        "Tarih":"2025-08-29",
+        "Saat":"21:28:35",
+        "Kod":"TRL\/\/1M",
+        "Aciklama":"REPO (AYLIK)",
+        "Son_Fiyat":14.59,
+        "Yuzde_Degisim":0.0
+    },
+    {
+        "Sira_No":9,
+        "Tarih":"2025-08-29",
+        "Saat":"21:28:35",
+        "Kod":"GTUSDTR1Y:GOV",
+        "Aciklama":"TÜRKİYE 1 YIL VADELİ EUROBOND",
+        "Son_Fiyat":4.43,
+        "Yuzde_Degisim":-7.45
+    },
+    {
+        "Sira_No":10,
+        "Tarih":"2025-08-29",
+        "Saat":"21:28:35",
+        "Kod":"GTUSDTR2Y:GOV",
+        "Aciklama":"TÜRKİYE 2 YIL VADELİ EUROBOND",
+        "Son_Fiyat":5.28,
+        "Yuzde_Degisim":-0.19
+    },
+    {
+        "Sira_No":11,
+        "Tarih":"2025-08-29",
+        "Saat":"21:28:35",
+        "Kod":"GTUSDTR3Y:GOV",
+        "Aciklama":"TÜRKİYE 3 YIL VADELİ EUROBOND",
+        "Son_Fiyat":5.51,
+        "Yuzde_Degisim":-0.18
+    },
+    {
+        "Sira_No":12,
+        "Tarih":"2025-08-29",
+        "Saat":"21:28:35",
+        "Kod":"GTUSDTR4Y:GOV",
+        "Aciklama":"TÜRKİYE 4 YIL VADELİ EUROBOND",
+        "Son_Fiyat":5.93,
+        "Yuzde_Degisim":-0.34
+    },
+    {
+        "Sira_No":13,
+        "Tarih":"2025-08-29",
+        "Saat":"21:28:35",
+        "Kod":"GTUSDTR5Y:GOV",
+        "Aciklama":"TÜRKİYE 5 YIL VADELİ EUROBOND",
+        "Son_Fiyat":5.98,
+        "Yuzde_Degisim":-1.84
+    },
+    {
+        "Sira_No":14,
+        "Tarih":"2025-08-29",
+        "Saat":"21:28:35",
+        "Kod":"GTUSDTR6Y:GOV",
+        "Aciklama":"TÜRKİYE 6 YIL VADELİ EUROBOND",
+        "Son_Fiyat":6.43,
+        "Yuzde_Degisim":-0.31
+    },
+    {
+        "Sira_No":15,
+        "Tarih":"2025-08-29",
+        "Saat":"21:28:35",
+        "Kod":"GTUSDTR8Y:GOV",
+        "Aciklama":"TÜRKİYE 8 YIL VADELİ EUROBOND",
+        "Son_Fiyat":6.78,
+        "Yuzde_Degisim":-0.15
+    },
+    {
+        "Sira_No":16,
+        "Tarih":"2025-08-29",
+        "Saat":"21:28:35",
+        "Kod":"GTUSDTR15Y:GOV",
+        "Aciklama":"TÜRKİYE 15 YIL VADELİ EUROBOND",
+        "Son_Fiyat":7.3,
+        "Yuzde_Degisim":-1.1
+    },
+    {
+        "Sira_No":17,
+        "Tarih":"2025-08-29",
+        "Saat":"21:28:35",
+        "Kod":"GTUSDTR20Y:GOV",
+        "Aciklama":"TÜRKİYE 20 YIL VADELİ EUROBOND",
+        "Son_Fiyat":7.82,
+        "Yuzde_Degisim":-0.77
+    },
+    {
+        "Sira_No":18,
+        "Tarih":"2025-08-29",
+        "Saat":"21:28:35",
+        "Kod":"GTUSDTR25Y:GOV",
+        "Aciklama":"TÜRKİYE 25 YIL VADELİ EUROBOND",
+        "Son_Fiyat":7.92,
+        "Yuzde_Degisim":-0.38
+    },
+    {
+        "Sira_No":19,
+        "Tarih":"2025-08-29",
+        "Saat":"21:28:35",
+        "Kod":"GTUSDTR30Y:GOV",
+        "Aciklama":"TÜRKİYE 30 YIL VADELİ EUROBOND",
+        "Son_Fiyat":8.06,
+        "Yuzde_Degisim":2.36
+    },
+    {
+        "Sira_No":20,
+        "Tarih":"2025-08-29",
+        "Saat":"21:28:35",
+        "Kod":"USGG2YR:IND",
+        "Aciklama":"ABD 2 Yıllık Tahvil",
+        "Son_Fiyat":3.62,
+        "Yuzde_Degisim":-0.28
+    },
+    {
+        "Sira_No":21,
+        "Tarih":"2025-08-29",
+        "Saat":"21:28:35",
+        "Kod":"USGG5YR:IND",
+        "Aciklama":"ABD 5 Yıllık Tahvil",
+        "Son_Fiyat":3.69,
+        "Yuzde_Degisim":0.09
+    },
+    {
+        "Sira_No":22,
+        "Tarih":"2025-08-29",
+        "Saat":"21:28:35",
+        "Kod":"USGG10YR:IND",
+        "Aciklama":"ABD 10 YILLIK TAHVİL",
+        "Son_Fiyat":4.22,
+        "Yuzde_Degisim":0.46
+    },
+    {
+        "Sira_No":23,
+        "Tarih":"2025-08-29",
+        "Saat":"21:28:35",
+        "Kod":"GDBR2:IND",
+        "Aciklama":"Almanya 2 Yıllık Tahvil",
+        "Son_Fiyat":1.94,
+        "Yuzde_Degisim":0.31
+    },
+    {
+        "Sira_No":24,
+        "Tarih":"2025-08-29",
+        "Saat":"21:28:35",
+        "Kod":"GDBR5:IND",
+        "Aciklama":"Almanya 5 Yıllık Tahvil",
+        "Son_Fiyat":2.26,
+        "Yuzde_Degisim":0.62
+    },
+    {
+        "Sira_No":25,
+        "Tarih":"2025-08-29",
+        "Saat":"21:28:35",
+        "Kod":"GDBR10:IND",
+        "Aciklama":"ALMANYA 10 YILLIK TAHVİL",
+        "Son_Fiyat":2.72,
+        "Yuzde_Degisim":1.08
+    },
+    {
+        "Sira_No":26,
+        "Tarih":"2025-08-29",
+        "Saat":"21:28:35",
+        "Kod":"GUKG2:IND",
+        "Aciklama":"İngiltere 2 Yıllık Tahvil",
+        "Son_Fiyat":3.94,
+        "Yuzde_Degisim":0.18
+    },
+    {
+        "Sira_No":27,
+        "Tarih":"2025-08-29",
+        "Saat":"21:28:35",
+        "Kod":"GUKG5:IND",
+        "Aciklama":"İngiltere 5 Yıllık Tahvil",
+        "Son_Fiyat":4.1,
+        "Yuzde_Degisim":0.15
+    },
+    {
+        "Sira_No":28,
+        "Tarih":"2025-08-29",
+        "Saat":"21:28:35",
+        "Kod":"GUKG10:IND",
+        "Aciklama":"İNGİLTERE 10 YILLIK TAHVİL",
+        "Son_Fiyat":4.72,
+        "Yuzde_Degisim":0.49
+    },
+    {
+        "Sira_No":29,
+        "Tarih":"2025-08-29",
+        "Saat":"21:28:35",
+        "Kod":"GJGB2:IND",
+        "Aciklama":"Japonya 2 Yıllık Tahvil",
+        "Son_Fiyat":0.87,
+        "Yuzde_Degisim":1.16
+    },
+    {
+        "Sira_No":30,
+        "Tarih":"2025-08-29",
+        "Saat":"21:28:35",
+        "Kod":"GJGB5:IND",
+        "Aciklama":"Japonya 5 Yıllık Tahvil",
+        "Son_Fiyat":1.15,
+        "Yuzde_Degisim":-1.12
+    },
+    {
+        "Sira_No":31,
+        "Tarih":"2025-08-29",
+        "Saat":"21:28:35",
+        "Kod":"GJGB10:IND",
+        "Aciklama":"Japonya 10 Yıllık Tahvil",
+        "Son_Fiyat":1.6,
+        "Yuzde_Degisim":-1.11
+    },
+    {
+        "Sira_No":32,
+        "Tarih":"2025-08-29",
+        "Saat":"21:28:35",
+        "Kod":"ALTIN\/ONS-1",
+        "Aciklama":"ALTIN\/ONS",
+        "Son_Fiyat":3443.56,
+        "Yuzde_Degisim":0.77
+    },
+    {
+        "Sira_No":33,
+        "Tarih":"2025-08-29",
+        "Saat":"21:28:35",
+        "Kod":"GÜMÜŞ ONS",
+        "Aciklama":"GÜMÜŞ ONS",
+        "Son_Fiyat":39.71,
+        "Yuzde_Degisim":1.69
+    },
+    {
+        "Sira_No":34,
+        "Tarih":"2025-08-29",
+        "Saat":"21:28:35",
+        "Kod":"PLATİN",
+        "Aciklama":"PLATİN",
+        "Son_Fiyat":1370.25,
+        "Yuzde_Degisim":0.5
+    },
+    {
+        "Sira_No":35,
+        "Tarih":"2025-08-29",
+        "Saat":"21:28:35",
+        "Kod":"PALADYUM",
+        "Aciklama":"PALADYUM",
+        "Son_Fiyat":1107.1,
+        "Yuzde_Degisim":-0.05
+    },
+    {
+        "Sira_No":36,
+        "Tarih":"2025-08-29",
+        "Saat":"21:28:35",
+        "Kod":"PAMUK",
+        "Aciklama":"PAMUK",
+        "Son_Fiyat":66.55,
+        "Yuzde_Degisim":-1.11
+    },
+    {
+        "Sira_No":37,
+        "Tarih":"2025-08-29",
+        "Saat":"21:28:35",
+        "Kod":"KAKAO",
+        "Aciklama":"KAKAO",
+        "Son_Fiyat":7710.0,
+        "Yuzde_Degisim":-1.32
+    },
+    {
+        "Sira_No":38,
+        "Tarih":"2025-08-29",
+        "Saat":"21:28:35",
+        "Kod":"KAHVE",
+        "Aciklama":"KAHVE",
+        "Son_Fiyat":386.1,
+        "Yuzde_Degisim":2.28
+    },
+    {
+        "Sira_No":39,
+        "Tarih":"2025-08-29",
+        "Saat":"21:28:35",
+        "Kod":"BAKIR",
+        "Aciklama":"BAKIR",
+        "Son_Fiyat":9703.0,
+        "Yuzde_Degisim":0.23
+    },
+    {
+        "Sira_No":40,
+        "Tarih":"2025-08-29",
+        "Saat":"21:28:35",
+        "Kod":"ALÜMİNYUM",
+        "Aciklama":"ALÜMİNYUM",
+        "Son_Fiyat":2614.0,
+        "Yuzde_Degisim":-0.08
+    },
+    {
+        "Sira_No":41,
+        "Tarih":"2025-08-29",
+        "Saat":"21:28:35",
+        "Kod":"ÇİNKO",
+        "Aciklama":"ÇİNKO",
+        "Son_Fiyat":2764.0,
+        "Yuzde_Degisim":-0.38
+    },
+    {
+        "Sira_No":42,
+        "Tarih":"2025-08-29",
+        "Saat":"21:28:35",
+        "Kod":"NİKEL",
+        "Aciklama":"NİKEL",
+        "Son_Fiyat":15010.0,
+        "Yuzde_Degisim":0.67
+    },
+    {
+        "Sira_No":43,
+        "Tarih":"2025-08-29",
+        "Saat":"21:28:35",
+        "Kod":"KALAY",
+        "Aciklama":"KALAY",
+        "Son_Fiyat":34800.0,
+        "Yuzde_Degisim":0.64
+    },
+    {
+        "Sira_No":44,
+        "Tarih":"2025-08-29",
+        "Saat":"21:28:35",
+        "Kod":"KURŞUN",
+        "Aciklama":"KURŞUN",
+        "Son_Fiyat":1943.0,
+        "Yuzde_Degisim":-0.21
+    },
+    {
+        "Sira_No":45,
+        "Tarih":"2025-08-29",
+        "Saat":"21:28:35",
+        "Kod":"BAKIR 3 AYLIK",
+        "Aciklama":"BAKIR 3 AYLIK",
+        "Son_Fiyat":9789.0,
+        "Yuzde_Degisim":0.17
+    },
+    {
+        "Sira_No":46,
+        "Tarih":"2025-08-29",
+        "Saat":"21:28:35",
+        "Kod":"ALÜMİNYUM 3 AYLIK",
+        "Aciklama":"ALÜMİNYUM 3 AYLIK",
+        "Son_Fiyat":2609.5,
+        "Yuzde_Degisim":-0.25
+    },
+    {
+        "Sira_No":47,
+        "Tarih":"2025-08-29",
+        "Saat":"21:28:35",
+        "Kod":"ÇİNKO 3 AYLIK",
+        "Aciklama":"ÇİNKO 3 AYLIK",
+        "Son_Fiyat":2768.0,
+        "Yuzde_Degisim":-0.61
+    },
+    {
+        "Sira_No":48,
+        "Tarih":"2025-08-29",
+        "Saat":"21:28:35",
+        "Kod":"NİKEL 3 AYLIK",
+        "Aciklama":"NİKEL 3 AYLIK",
+        "Son_Fiyat":15190.0,
+        "Yuzde_Degisim":0.46
+    },
+    {
+        "Sira_No":49,
+        "Tarih":"2025-08-29",
+        "Saat":"21:28:35",
+        "Kod":"KALAY 3 AYLIK",
+        "Aciklama":"KALAY 3 AYLIK",
+        "Son_Fiyat":34700.0,
+        "Yuzde_Degisim":0.68
+    },
+    {
+        "Sira_No":50,
+        "Tarih":"2025-08-29",
+        "Saat":"21:28:35",
+        "Kod":"KURŞUN 3 AYLIK",
+        "Aciklama":"KURŞUN 3 AYLIK",
+        "Son_Fiyat":1988.0,
+        "Yuzde_Degisim":-0.23
+    },
+    {
+        "Sira_No":51,
+        "Tarih":"2025-08-29",
+        "Saat":"21:28:35",
+        "Kod":"WTI PETROL",
+        "Aciklama":"WTI PETROL",
+        "Son_Fiyat":64.0,
+        "Yuzde_Degisim":-0.93
+    },
+    {
+        "Sira_No":52,
+        "Tarih":"2025-08-29",
+        "Saat":"21:28:35",
+        "Kod":"BRENT",
+        "Aciklama":"BRENT",
+        "Son_Fiyat":68.15,
+        "Yuzde_Degisim":-0.68
+    },
+    {
+        "Sira_No":53,
+        "Tarih":"2025-08-29",
+        "Saat":"21:28:35",
+        "Kod":"ALTIN\/ONS-2",
+        "Aciklama":"ALTIN\/ONS",
+        "Son_Fiyat":3441.42,
+        "Yuzde_Degisim":0.81
+    },
+    {
+        "Sira_No":54,
+        "Tarih":"2025-08-29",
+        "Saat":"21:28:35",
+        "Kod":"GRAM ALTIN",
+        "Aciklama":"GRAM ALTIN",
+        "Son_Fiyat":4553.22,
+        "Yuzde_Degisim":0.98
+    },
+    {
+        "Sira_No":55,
+        "Tarih":"2025-08-29",
+        "Saat":"21:28:35",
+        "Kod":"CUMHURİYET ALTINI",
+        "Aciklama":"CUMHURİYET ALTINI",
+        "Son_Fiyat":29686.97,
+        "Yuzde_Degisim":0.98
+    },
+    {
+        "Sira_No":56,
+        "Tarih":"2025-08-29",
+        "Saat":"21:28:35",
+        "Kod":"TAM ALTIN",
+        "Aciklama":"TAM ALTIN",
+        "Son_Fiyat":29679.0,
+        "Yuzde_Degisim":0.75
+    },
+    {
+        "Sira_No":57,
+        "Tarih":"2025-08-29",
+        "Saat":"21:28:35",
+        "Kod":"ZİYNET ALTINI",
+        "Aciklama":"ZİYNET ALTINI",
+        "Son_Fiyat":29686.97,
+        "Yuzde_Degisim":0.98
+    },
+    {
+        "Sira_No":58,
+        "Tarih":"2025-08-29",
+        "Saat":"21:28:35",
+        "Kod":"ÇEYREK ALTIN",
+        "Aciklama":"ÇEYREK ALTIN",
+        "Son_Fiyat":7444.51,
+        "Yuzde_Degisim":0.98
+    },
+    {
+        "Sira_No":59,
+        "Tarih":"2025-08-29",
+        "Saat":"21:28:35",
+        "Kod":"YARIM ALTIN",
+        "Aciklama":"YARIM ALTIN",
+        "Son_Fiyat":14889.02,
+        "Yuzde_Degisim":0.98
+    },
+    {
+        "Sira_No":60,
+        "Tarih":"2025-08-29",
+        "Saat":"21:28:35",
+        "Kod":"ATA ALTIN",
+        "Aciklama":"ATA ALTIN",
+        "Son_Fiyat":30628.87,
+        "Yuzde_Degisim":0.74
+    },
+    {
+        "Sira_No":61,
+        "Tarih":"2025-08-29",
+        "Saat":"21:28:35",
+        "Kod":"14 AYAR BİLEZİK GRAMI",
+        "Aciklama":"14 AYAR BİLEZİK GRAMI",
+        "Son_Fiyat":3461.34,
+        "Yuzde_Degisim":0.65
+    },
+    {
+        "Sira_No":62,
+        "Tarih":"2025-08-29",
+        "Saat":"21:28:35",
+        "Kod":"22 AYAR BİLEZİK GRAMI",
+        "Aciklama":"22 AYAR BİLEZİK GRAMI",
+        "Son_Fiyat":4343.1,
+        "Yuzde_Degisim":0.75
+    },
+    {
+        "Sira_No":63,
+        "Tarih":"2025-08-29",
+        "Saat":"21:28:35",
+        "Kod":"GREMSE ALTIN",
+        "Aciklama":"GREMSE ALTIN",
+        "Son_Fiyat":74084.0,
+        "Yuzde_Degisim":0.76
+    },
+    {
+        "Sira_No":64,
+        "Tarih":"2025-08-29",
+        "Saat":"21:28:35",
+        "Kod":"ALTIN\/ONS TL",
+        "Aciklama":"ALTIN\/ONS TL",
+        "Son_Fiyat":141719.0,
+        "Yuzde_Degisim":0.74
+    },
+    {
+        "Sira_No":65,
+        "Tarih":"2025-08-29",
+        "Saat":"21:28:35",
+        "Kod":"DOW",
+        "Aciklama":"DOW JONES INDUSTRIAL AVERAGE",
+        "Son_Fiyat":45512.22,
+        "Yuzde_Degisim":-0.27
+    },
+    {
+        "Sira_No":66,
+        "Tarih":"2025-08-29",
+        "Saat":"21:28:35",
+        "Kod":"S&P 500",
+        "Aciklama":"STANDARD & POOR'S 500 ENDEKSİ",
+        "Son_Fiyat":6457.42,
+        "Yuzde_Degisim":-0.68
+    },
+    {
+        "Sira_No":67,
+        "Tarih":"2025-08-29",
+        "Saat":"21:28:35",
+        "Kod":"NASDAQ",
+        "Aciklama":"NASDAQ ENDEKSİ",
+        "Son_Fiyat":21442.0,
+        "Yuzde_Degisim":-1.21
+    },
+    {
+        "Sira_No":68,
+        "Tarih":"2025-08-29",
+        "Saat":"21:28:35",
+        "Kod":"DAX",
+        "Aciklama":"DAX ENDEKSİ",
+        "Son_Fiyat":23902.21,
+        "Yuzde_Degisim":-0.57
+    },
+    {
+        "Sira_No":69,
+        "Tarih":"2025-08-29",
+        "Saat":"21:28:35",
+        "Kod":"FTSE 100",
+        "Aciklama":"FTSE 100 ENDEKSİ",
+        "Son_Fiyat":9187.34,
+        "Yuzde_Degisim":-0.32
+    },
+    {
+        "Sira_No":70,
+        "Tarih":"2025-08-29",
+        "Saat":"21:28:35",
+        "Kod":"CAC 40",
+        "Aciklama":"CAC 40 ENDEKSİ",
+        "Son_Fiyat":7703.9,
+        "Yuzde_Degisim":-0.76
+    },
+    {
+        "Sira_No":71,
+        "Tarih":"2025-08-29",
+        "Saat":"21:28:35",
+        "Kod":"IBEX 35",
+        "Aciklama":"IBEX 35",
+        "Son_Fiyat":14935.8,
+        "Yuzde_Degisim":-0.9
+    },
+    {
+        "Sira_No":72,
+        "Tarih":"2025-08-29",
+        "Saat":"21:28:35",
+        "Kod":"SHANGHAI",
+        "Aciklama":"SHANGHAI",
+        "Son_Fiyat":3857.93,
+        "Yuzde_Degisim":0.37
+    },
+    {
+        "Sira_No":73,
+        "Tarih":"2025-08-29",
+        "Saat":"21:28:35",
+        "Kod":"NIKKEI",
+        "Aciklama":"NIKKEI 225 ENDEKSİ",
+        "Son_Fiyat":42718.47,
+        "Yuzde_Degisim":-0.26
+    },
+    {
+        "Sira_No":74,
+        "Tarih":"2025-08-29",
+        "Saat":"21:28:35",
+        "Kod":"KOSPI",
+        "Aciklama":"KORE KOSPI",
+        "Son_Fiyat":3186.01,
+        "Yuzde_Degisim":-0.32
+    },
+    {
+        "Sira_No":75,
+        "Tarih":"2025-08-29",
+        "Saat":"21:28:35",
+        "Kod":"HANG SENG",
+        "Aciklama":"HANG SENG",
+        "Son_Fiyat":25077.62,
+        "Yuzde_Degisim":0.32
+    },
+    {
+        "Sira_No":76,
+        "Tarih":"2025-08-29",
+        "Saat":"21:28:35",
+        "Kod":"S&P FUT",
+        "Aciklama":"S&P 500 VADELİ ENDEKS",
+        "Son_Fiyat":6457.42,
+        "Yuzde_Degisim":-0.68
+    },
+    {
+        "Sira_No":77,
+        "Tarih":"2025-08-29",
+        "Saat":"21:28:35",
+        "Kod":"NASDAQ 100",
+        "Aciklama":"NASDAQ 100",
+        "Son_Fiyat":23404.24,
+        "Yuzde_Degisim":-1.26
+    },
+    {
+        "Sira_No":78,
+        "Tarih":"2025-08-29",
+        "Saat":"21:28:35",
+        "Kod":"USD\/TRY",
+        "Aciklama":"DOLAR",
+        "Son_Fiyat":41.1462,
+        "Yuzde_Degisim":0.27
+    },
+    {
+        "Sira_No":79,
+        "Tarih":"2025-08-29",
+        "Saat":"21:28:35",
+        "Kod":"EUR\/TRY",
+        "Aciklama":"EURO",
+        "Son_Fiyat":48.1174,
+        "Yuzde_Degisim":0.1
+    },
+    {
+        "Sira_No":80,
+        "Tarih":"2025-08-29",
+        "Saat":"21:28:35",
+        "Kod":"GBP\/TRY",
+        "Aciklama":"STERLİN",
+        "Son_Fiyat":55.5466,
+        "Yuzde_Degisim":0.04
+    },
+    {
+        "Sira_No":81,
+        "Tarih":"2025-08-29",
+        "Saat":"21:28:35",
+        "Kod":"CHF\/TRY",
+        "Aciklama":"İSVİÇRE FRANGI",
+        "Son_Fiyat":51.4256,
+        "Yuzde_Degisim":0.11
+    },
+    {
+        "Sira_No":82,
+        "Tarih":"2025-08-29",
+        "Saat":"21:28:35",
+        "Kod":"JPY\/TRY",
+        "Aciklama":"100 JAPON YENİ",
+        "Son_Fiyat":27.9893,
+        "Yuzde_Degisim":-0.09
+    },
+    {
+        "Sira_No":83,
+        "Tarih":"2025-08-29",
+        "Saat":"21:28:35",
+        "Kod":"SAR\/TRY",
+        "Aciklama":"SUUDİ ARABİSTAN RİYALİ",
+        "Son_Fiyat":10.965,
+        "Yuzde_Degisim":-0.06
+    },
+    {
+        "Sira_No":84,
+        "Tarih":"2025-08-29",
+        "Saat":"21:28:35",
+        "Kod":"NOK\/TRY",
+        "Aciklama":"NORVEÇ KRONU",
+        "Son_Fiyat":4.0909,
+        "Yuzde_Degisim":0.05
+    },
+    {
+        "Sira_No":85,
+        "Tarih":"2025-08-29",
+        "Saat":"21:28:35",
+        "Kod":"DKK\/TRY",
+        "Aciklama":"DANİMARKA KRONU",
+        "Son_Fiyat":6.4459,
+        "Yuzde_Degisim":0.05
+    },
+    {
+        "Sira_No":86,
+        "Tarih":"2025-08-29",
+        "Saat":"21:28:35",
+        "Kod":"AUD\/TRY",
+        "Aciklama":"AVUSTRALYA DOLARI",
+        "Son_Fiyat":26.9195,
+        "Yuzde_Degisim":0.1
+    },
+    {
+        "Sira_No":87,
+        "Tarih":"2025-08-29",
+        "Saat":"21:28:35",
+        "Kod":"CAD\/TRY",
+        "Aciklama":"KANADA DOLARI",
+        "Son_Fiyat":29.9536,
+        "Yuzde_Degisim":0.36
+    },
+    {
+        "Sira_No":88,
+        "Tarih":"2025-08-29",
+        "Saat":"21:28:35",
+        "Kod":"SEK\/TRY",
+        "Aciklama":"İSVEÇ KRONU",
+        "Son_Fiyat":4.3447,
+        "Yuzde_Degisim":0.06
+    },
+    {
+        "Sira_No":89,
+        "Tarih":"2025-08-29",
+        "Saat":"21:28:35",
+        "Kod":"XU100",
+        "Aciklama":"BIST 100 ENDEKSİ",
+        "Son_Fiyat":11288.05,
+        "Yuzde_Degisim":-0.71
+    },
+    {
+        "Sira_No":90,
+        "Tarih":"2025-08-29",
+        "Saat":"21:28:35",
+        "Kod":"XU050",
+        "Aciklama":"BIST 50 ENDEKSİ",
+        "Son_Fiyat":9939.42,
+        "Yuzde_Degisim":-0.89
+    },
+    {
+        "Sira_No":91,
+        "Tarih":"2025-08-29",
+        "Saat":"21:28:35",
+        "Kod":"XU030",
+        "Aciklama":"BIST 30 ENDEKSİ",
+        "Son_Fiyat":12423.2,
+        "Yuzde_Degisim":-0.98
+    },
+    {
+        "Sira_No":92,
+        "Tarih":"2025-08-29",
+        "Saat":"21:28:35",
+        "Kod":"XBANK",
+        "Aciklama":"BIST BANKA ENDEKSİ",
+        "Son_Fiyat":16216.68,
+        "Yuzde_Degisim":-1.22
+    },
+    {
+        "Sira_No":93,
+        "Tarih":"2025-08-29",
+        "Saat":"21:28:35",
+        "Kod":"XUSIN",
+        "Aciklama":"BIST SINAİ ENDEKSİ",
+        "Son_Fiyat":14695.46,
+        "Yuzde_Degisim":-0.47
+    },
+    {
+        "Sira_No":94,
+        "Tarih":"2025-08-29",
+        "Saat":"21:28:35",
+        "Kod":"BTC",
+        "Aciklama":"BTCUSDT",
+        "Son_Fiyat":108109.66,
+        "Yuzde_Degisim":-3.98
+    },
+    {
+        "Sira_No":95,
+        "Tarih":"2025-08-29",
+        "Saat":"21:28:35",
+        "Kod":"ETH",
+        "Aciklama":"ETHUSDT",
+        "Son_Fiyat":4312.7,
+        "Yuzde_Degisim":-4.19
+    },
+    {
+        "Sira_No":96,
+        "Tarih":"2025-08-29",
+        "Saat":"21:28:35",
+        "Kod":"BNB",
+        "Aciklama":"BNBUSDT",
+        "Son_Fiyat":854.29,
+        "Yuzde_Degisim":-2.74
+    },
+    {
+        "Sira_No":97,
+        "Tarih":"2025-08-29",
+        "Saat":"21:28:35",
+        "Kod":"ETHTRY",
+        "Aciklama":"ETHTRY",
+        "Son_Fiyat":177576.0,
+        "Yuzde_Degisim":-3.98
+    },
+    {
+        "Sira_No":98,
+        "Tarih":"2025-08-29",
+        "Saat":"21:28:35",
+        "Kod":"USDT",
+        "Aciklama":"USDTTRY",
+        "Son_Fiyat":41.18,
+        "Yuzde_Degisim":0.27
+    }
+]

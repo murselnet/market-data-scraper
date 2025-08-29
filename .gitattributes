@@ -1,0 +1,200 @@
+# mrs ekledi
+*.bat text eol=crlf
+*.sh  text eol=lf
+*.py text eol=lf
+
+
+
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Text dosyaları
+*.txt text
+*.md text
+*.json text
+*.xml text
+*.yml text
+*.yaml text
+*.csv text
+*.tsv text
+
+# Kod dosyaları - C/C++
+*.c text diff=c
+*.h text diff=c
+*.cpp text diff=cpp
+*.hpp text diff=cpp
+*.cc text diff=cpp
+*.cxx text diff=cpp
+
+# Kod dosyaları - Java
+*.java text diff=java
+
+# Kod dosyaları - Dart/Flutter
+*.dart text diff=dart
+*.g.dart text diff=dart
+*.freezed.dart text diff=dart
+*.config.dart text diff=dart
+
+# Kod dosyaları - Kotlin
+*.kt text diff=kotlin
+*.kts text diff=kotlin
+
+# Kod dosyaları - Python
+*.py text diff=python
+*.py3 text diff=python
+*.pyw text diff=python
+*.pyx text diff=python
+*.pyz text diff=python
+*.pyi text diff=python
+*.pxd text diff=python
+
+# Kod dosyaları - JavaScript/TypeScript
+*.js text
+*.ts text
+*.jsx text
+*.tsx text
+*.mjs text
+
+# Web dosyaları
+*.html text diff=html
+*.htm text diff=html
+*.css text diff=css
+*.scss text diff=css
+*.sass text diff=css
+*.less text diff=css
+
+# Diğer kod dosyaları
+*.sql text
+*.php text diff=php
+*.rb text diff=ruby
+*.go text diff=golang
+*.rs text diff=rust
+*.sh text eol=lf
+*.bat text eol=crlf
+*.ps1 text eol=crlf
+
+# Konfigürasyon dosyaları
+*.ini text
+*.conf text
+*.config text
+*.toml text
+*.lock text -diff
+
+# Flutter/Dart özel dosyaları
+pubspec.yaml text
+pubspec.lock text -diff
+analysis_options.yaml text
+*.iml text
+*.gradle text
+*.properties text
+build.gradle text
+gradle.properties text
+settings.gradle text
+
+# Android özel dosyaları (Flutter/Kotlin)
+*.xml text
+AndroidManifest.xml text
+proguard-rules.pro text
+*.pro text
+
+# iOS özel dosyaları (Flutter)
+*.plist text
+Podfile text
+Podfile.lock text -diff
+*.xcconfig text
+*.entitlements text
+
+# Binary dosyalar - Görsel
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.bmp binary
+*.ico binary
+*.svg text
+*.webp binary
+*.tiff binary
+*.tif binary
+
+# Binary dosyalar - Ses/Video
+*.mp3 binary
+*.mp4 binary
+*.avi binary
+*.mov binary
+*.wav binary
+*.flac binary
+
+# Binary dosyalar - Arşiv
+*.zip binary
+*.tar binary
+*.gz binary
+*.rar binary
+*.7z binary
+
+# Binary dosyalar - Belgeler
+*.pdf binary
+*.doc binary
+*.docx binary
+*.xls binary
+*.xlsx binary
+*.ppt binary
+*.pptx binary
+
+# Binary dosyalar - Executable
+*.exe binary
+*.dll binary
+*.so binary
+*.dylib binary
+*.jar binary
+*.aar binary
+*.apk binary
+*.ipa binary
+*.app binary
+
+# Flutter/Android/iOS binary dosyaları
+*.dex binary
+*.class binary
+*.a binary
+*.framework binary
+*.xcframework binary
+*.bundle binary
+
+# Python özel binary dosyalar
+*.db binary
+*.p binary
+*.pkl binary
+*.pickle binary
+*.pyc binary export-ignore
+*.pyo binary export-ignore
+*.pyd binary
+
+# Jupyter notebook
+*.ipynb text eol=lf
+
+# Git LFS (Large File Storage) - büyük dosyalar için
+*.psd filter=lfs diff=lfs merge=lfs -text
+*.ai filter=lfs diff=lfs merge=lfs -text
+*.sketch filter=lfs diff=lfs merge=lfs -text
+
+# Flutter assets - büyük dosyalar için LFS
+*.ttf filter=lfs diff=lfs merge=lfs -text
+*.otf filter=lfs diff=lfs merge=lfs -text
+*.woff filter=lfs diff=lfs merge=lfs -text
+*.woff2 filter=lfs diff=lfs merge=lfs -text
+
+# Özel durumlar
+.gitattributes text
+.gitignore text
+.gitmodules text
+LICENSE text
+README text
+Makefile text
+Dockerfile text
+*.dockerfile text
+
+# Flutter özel dosyaları
+.flutter-plugins text
+.flutter-plugins-dependencies text
+.packages text
+.dart_tool/ export-ignore
+.metadata text
