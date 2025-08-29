@@ -5,7 +5,42 @@
 
 
 
+eu-central-1
 
+
+
+market-data-scraper
+python 3.11
+x86_64
+
+market-data-scraper-gateway
+Rest
+invoke > https://uky2iqnwpi.execute-api.eu-central-1.amazonaws.com/prod
+
+S3_DEPLOYMENT_BUCKET = "market-data-scraper-s3"
+
+
+market-data-scraper-role
+
+AWSLambdaBasicExecutionRole
+AmazonS3FullAccess
+AmazonAPIGatewayAdministrator
+CloudWatchFullAccess
+CloudWatchFullAccessV2
+
+
+
+Lambda
+Gateway
+S3
+AIM
+
+
+
+
+
+
+############################################################################
 
 Github > action - variables
 AWS Lambda > function, envroment var
@@ -182,3 +217,55 @@ pip install -q -U fastapi uvicorn
 
 
 
+AWS IAM Role Oluşturma - Adım Adım Rehber
+1. AWS Console'a Giriş ve IAM Servisine Erişim
+
+AWS Console'a giriş yapın
+Üst arama çubuğuna "IAM" yazın
+IAM servisine tıklayın
+
+2. Roles Bölümüne Git
+
+Sol menüden "Roles" seçeneğini tıklayın
+Sağ üstten "Create role" mavi butonuna tıklayın
+
+3. Trust Entity (Güvenilen Varlık) Seçimi
+
+"Trusted entity type" kısmında "AWS service" seçili bırakın
+"Use case" bölümünde "Lambda" seçin
+Alt kısımda "Next" butonuna tıklayın
+
+4. Permission Policy'leri Ekleme
+
+Arama kutusuna policy isimlerini tek tek yazıp seçin:
+
+AWSLambdaBasicExecutionRole
+AmazonS3FullAccess
+AmazonAPIGatewayAdministrator
+CloudWatchFullAccess
+
+
+Her policy'yi bulup checkbox'ını işaretleyin
+Hepsini seçtikten sonra "Next" butonuna tıklayın
+
+5. Role İsmi ve Açıklama
+
+"Role name" kısmına: my-lambda-role yazın
+"Description" kısmına: Lambda, S3 ve API Gateway için genel role yazın
+En alttaki "Create role" butonuna tıklayın
+
+6. Role Oluşturuldu ✅
+Role başarıyla oluşturuldu! Artık bu role'u Lambda fonksiyonlarınızda kullanabilirsiniz.
+7. Lambda'da Role'u Kullanma
+Yeni Lambda fonksiyonu oluştururken:
+
+"Execution role" kısmında "Use an existing role" seçin
+Dropdown'dan my-lambda-role seçin
+
+Mevcut Lambda fonksiyonunda:
+
+Lambda fonksiyonuna git
+"Configuration" sekmesi → "Permissions"
+"Edit" butonuna tıklayıp role'u değiştirin
+
+Bu kadar! Role'unuz hazır ve Lambda projelerinizde kullanabilirsiniz.
