@@ -1,13 +1,27 @@
 
 
+COMMENT ON TABLE public.market_data IS 'Piyasa verilerini depolamak için kullanılan tablo.';
+COMMENT ON COLUMN public.market_data."Sira_No" IS 'Her bir veri satırı için benzersiz sıra numarası (Primary Key).';
+COMMENT ON COLUMN public.market_data."Tarih" IS 'Verinin çekildiği tarih.';
+COMMENT ON COLUMN public.market_data."Saat" IS 'Verinin çekildiği saat.';
+COMMENT ON COLUMN public.market_data."Kod" IS 'Finansal enstrümanın kodu veya sembolü (örn: USD/TRY, XU100).';      
+COMMENT ON COLUMN public.market_data."Aciklama" IS 'Finansal enstrümanın açıklaması (örn: DOLAR, BIST 100).';       
+COMMENT ON COLUMN public.market_data."Son_Fiyat" IS 'Enstrümanın son işlem fiyatı.';
+COMMENT ON COLUMN public.market_data."Yuzde_Degisim" IS 'Fiyattaki yüzdesel değişim.';
 
 
 
 
+supabase
+Project name > market-data-scraper-db
+db şifre > Metin1453
+region > frankfırt
+
+tablo > market_data
+
+------------------
 
 eu-central-1
-
-
 
 market-data-scraper
 python 3.11

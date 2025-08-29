@@ -531,14 +531,7 @@ merged_df.insert(0, 'Sira_No', range(1, 1 + len(merged_df)))
 merged_df.insert(1, 'Tarih', now.strftime('%Y-%m-%d'))
 merged_df.insert(2, 'Saat', now.strftime('%H:%M:%S'))
 
-# Verileri dosyalara yazdır
-csv_file_path = "data.csv"
-json_file_path = "data.json"
+# Verileri Supabase'e kaydet
+from database import save_data_to_supabase
 
-# CSV olarak yazdır
-merged_df.to_csv(csv_file_path, index=False, encoding='utf-8-sig')
-print(f"Veriler başarıyla '{csv_file_path}' dosyasına yazıldı.")
-
-# JSON olarak yazdır
-merged_df.to_json(json_file_path, orient='records', force_ascii=False, indent=4)
-print(f"Veriler başarıyla '{json_file_path}' dosyasına yazıldı.")
+save_data_to_supabase(merged_df)

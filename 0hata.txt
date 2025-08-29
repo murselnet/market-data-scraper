@@ -1,0 +1,16 @@
+bu uygylamayı amazon aws lambda ya deploy ederek oradan çalıştıracağım. deploy için amazons3 il deploy edeceğim.
+bu deploy için github actionsu kullanacağım. github klasörünün içindeki workflow klasöündeki deploy.yml dosyasının
+.env dosyasındaki ayarlardan sana gerekl olanları alarak oluşturmanı istiyorum.
+
+
+bu ptojeyi amazon aws lambda da deplot edip çalışştıracağım. bunun için main.py dosyasını ve örnek bir içerikle oluşturulmuş lambda_function.py dosyasını
+fastapi ve mangum paketleri ile lambda da bir rest api servisi olarak çalışacak şekilde oluştur. ben amazonda aws de lmbda, aws gateway, aim role, s3 servislerinde
+gerekli yapılandırmayı yaptım. ayrıca lokalde test etmem için uvicorn paket yapısını da hazırla. tüm api talep ve cevapları json formatında olsun.
+
+
+istediğim endpointler:
+/ > root endpointte sadece bu uygulamanın adı yazılsın
+/data > data.json dosya içeriğini göstersin.
+/uptade > main.py dosyasındaki kodlar çalışarak veriler çekilsin ve data.json ile data.csv dosyalarına yazılsın. işlem bittiğinde bu dosyalara yazıldığına dair bilgi mesajı verilsin.
+
+
